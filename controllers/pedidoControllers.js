@@ -66,7 +66,7 @@ exports.updatePedidoById = (req, res) => {
             if (!pedidoActualizado) {
                 return res.status(404).json({ message: 'Pedido no encontrado' });
             }
-            res.status(200).json('Datos actualizados');
+            res.status(200).json('Datos Actulizados');
         })
         .catch(err => {
             console.error(err);
